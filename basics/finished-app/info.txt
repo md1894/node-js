@@ -1,0 +1,10 @@
+note:: command is preceded by $ symbol
+
+$ npm init
+:this command will generate package.json file, and in that json object you have to insert 'start'
+:script, before creating that package.json file it will ask for the entry point
+
+$ npm start
+
+add any anonymous name in package.json ,example : APP
+$ npm run APP
