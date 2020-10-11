@@ -7,4 +7,18 @@ $ npm init
 $ npm start
 
 add any anonymous name in package.json ,example : APP
-$ npm run APP
+$ npm run start-server
+
+$ npm install nodemon --save-dev
+
+this command will install nodemon locally to the project and there by update package.json file
+
+if i delete node_modules folder then simply hit command
+
+$ npm install
+
+it will again install all the packages mentioned in package.json file
+
+:::: --> package-lock.json
+
+package dependencies with exact version
