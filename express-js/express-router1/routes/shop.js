@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path') // node js core module
-const rootDir = require('./../utils/path');
+const rootDir = require('../utils/path');
 const routes = express.Router();
 
 routes.get('/',(req,res,next)=>{
