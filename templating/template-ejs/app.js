@@ -5,6 +5,8 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
+// ejs is built in installed in express
+// we just have to set it
 app.set('view engine', 'ejs');
 app.set('views', 'views');
 
